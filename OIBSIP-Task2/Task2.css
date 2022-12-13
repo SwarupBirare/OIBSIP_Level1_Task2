@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+}
+header{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: white;
+    padding: 0px 70px;
+    position: absolute;
+    z-index: 1;
+}
+.logo{
+    font-size: 40px;
+    margin:70px 0 0 80px;
+    letter-spacing: 5px;
+    color: skyblue;
+}
+.menu a{
+    text-decoration-line: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.menu a:hover{
+    color: skyblue;
+}
+.text{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    color: white;
+    z-index: 1;
+}
+.text h1{
+    font-size: 3.5em;
+
+}
+.text h2{
+    font-size: 2.5em;
+    color: white;
+    letter-spacing: 2px;
+}
+.img1 img{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 250px;
+    height:300px;
+}
+#about{
+    padding: 50px 100px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.about-text{
+    text-align: left;
+    color: white;
+    max-width: 600px;
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    z-index: 1;
+}
+#li-img{
+    width: 54px;
+    height: 51px;
+    position: absolute;
+    top: 110%;
+    z-index: 1;
+    cursor: pointer;
+}
+#fb-img{
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    top: 112%;
+    left: 10%;
+    z-index: 1;
+    cursor: pointer;
+}
+#in-img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    z-index: 1;
+    cursor: pointer;
+}
+#te-img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    z-index: 1;
+    cursor: pointer;
+}
+#tw-img{
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    top: 111%;
+    left: 40%;
+    z-index: 1;
+    cursor: pointer;
+}
